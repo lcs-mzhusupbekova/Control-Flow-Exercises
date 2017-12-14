@@ -35,10 +35,15 @@
 
  Write an if statement that prints "Brr, grab your winter jacket!" when the temperature is equal to 0.
  */
-var temperature = 0
+var temperature = 2
 
 // Answer Question 1 below
-
+if  temperature == 0 {
+    print ("Brr, grab your winter jacket!")
+}
+else {
+    print ("get your coffee")
+}
 
 /*:
  
@@ -52,6 +57,13 @@ temperature = -20
 
 // Answer Question 2 below
 
+if  temperature == 0 {
+    print ("Brr, grab your winter jacket!")
+}
+//    if you want to add use if after else
+else if temperature <= 0  {
+    print ("Don't leave your water glass outside!")
+}
 
 /*:
  
@@ -69,7 +81,16 @@ temperature = -20
 temperature = 15
 
 // Answer Question 3 below
-
+if  temperature == 0 {
+    print ("Brr, grab your winter jacket!")
+}
+    //    if you want to add use if after else
+else if temperature <= 0  {
+    print ("Don't leave your water glass outside!")
+}
+else {
+    print ( "It could be shorts weather but you might still be a bit chilly!")
+}
 /*:
  
  ### Question 4
@@ -88,7 +109,14 @@ let alwaysGetsAttentionBySayingGentsAndLadies = true
 let teachesOutdoorEd = true
 
 // Answer Question 4 below
+if hasRedHair && alwaysGetsAttentionBySayingGentsAndLadies && teachesOutdoorEd {
+    
+    print ("Must be Gordon!")
+}
 
+else {
+    print ("Must be Gordon!")
+}
 
 /*:
  
@@ -109,7 +137,12 @@ let isComedy = false
 let starsTheRock = true
 
 // Answer Question 5 below
-
+if isAction || starsTheRock {
+print ("Let's watch!" )
+}
+else if isComedy {
+print ("Sorry, guess we'll have to play Tic-Tac-Toe instead.")
+}
 
 /*:
  
@@ -127,7 +160,19 @@ let starsTheRock = true
  */
 
 // Answer Question 6 below
-
+var finalGrade = 89
+if finalGrade >= 80 {
+    print ( "You've learned a lot, well done!")
+}
+else if 60 <= 79 {
+    print ("Hmm, not bad, but could be better.")
+}
+else if 50 <= 59 {
+    print ("Should have booked more Grove Times.")
+}
+else {
+    print ("I literally can't even.")
+}
 
 
 
